@@ -49,10 +49,16 @@
 .a_redirect {
     transition: 0.3s;
     opacity: 100;
+    box-shadow: 3px 3px 3px #3ec0e8
 }
 .a_redirect:hover {
     opacity: 70;
     transform: translateY(4px);
+    box-shadow: 4px 4px 4px #3ec0e88e
+}
+.img_custom {
+    /* border: 2px solid #3ec0e8; */
+    box-shadow: 3px 3px 3px #3ec0e8
 }
 .text_btn {
     color: #3ec0e8;
