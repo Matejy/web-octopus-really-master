@@ -3,82 +3,143 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Gemetria Support - tvorba web stránok a webových aplikácií</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gemetria - Vytvárame web stránky a web aplikácie</title>
+    
+    <meta name="description" content="Vytvárame web stránky a web aplikácie. Spravujeme social networking a digitálny marketing."/>
+    <meta name="author" content="gemetria@gemetria.sk">
+    <meta name="keywords" content="web, web stránky, web dizajn, aplikácie, marketing, digitálny marketing, social networking">
+    
+    <meta property="og:title" content="Gemetria - Vytvárame web stránky a web aplikácie">
+    <meta property="og:site_name" content="Gemetria">
+    <meta property="og:description" content="Vytvárame web stránky a web aplikácie. Spravujeme social networking a digitálny marketing.">
+    <meta property="og:image" content="https://gemetria.sk/images/hero_background.jpg">
+    <meta property="og:url" content="https://gemetria.sk">
+    
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
+    <link rel="icon" type="image/png" href="./images/favicon.png" />
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-    <!-- Header -->
-    <div class="vh head">
+    <nav class="navbar p-2 navbar-expand-lg background sticky-top navbar-light">
+        <a class="navbar-brand ml-2" href="#header">
+            <img src="./images/favicon.svg" width="30" height="30" class="d-inline-block align-top" alt="logo" /> Gemetria 
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbartoggle" aria-controls="navbartoggle" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbartoggle">
+            <a class="nav-item nav_item_custom nav-link" href="#header">Úvod</a>
+            <a class="nav-item nav_item_custom nav-link" href="#infotext">Podrobnosti</a>
+            <a class="nav-item nav_item_custom nav-link" href="#referencie">Referencie</a>
+            <a class="nav-item nav_item_custom nav-link" href="#contact">Kontakt</a>
+        </div>
+    </nav> 
+    <div class="vh head" id="header">
         <div class="container">
-            <h4 class="text-white margin_top text_size">Vytvárame <span class="span_col_1">webové</span> stránky a <br /> <span class="span_col_1">webové</span> aplikácie</h4>
-            <a href="#no_1" class="btn-lg btn_custom text_btn margin_top text_size">Pokračovať</a>
+            <h1 class="text-white margin_top text_size">Vytvárame <span class="span_col_1">web</span> stránky a <br /> <span class="span_col_1">web</span> aplikácie</h1>
+            <a href="#infotext" class="btn-lg btn_custom text_btn margin_top text_size">Pokračovať</a>
         </div>
     </div>
-    <!-- Liltext -->
-    <div class="container-fluid background" id="no_1">
-        <div class="row vh_half margin_top_higher">
-            <div class="col text-center">
-                <h3 class="span_col_3">Webové stránky</h3>
-                <p>Vytvárame webové stránky s responzívnym a moderným dizajnom. Vytvárame vizuálny obsah pomocou vysokokvalitných zariadení a používame najmoderňejšie nástroje. </p>
-                <img src="" alt="Img" class="img-fluid"/>
+    <div class="container-fluid text pt-5" id="infotext">
+        <div class="card-deck text-center background no_margin padding">
+            <div class="card card_background">
+                <div class="card-body">
+                    <img class="card-img-top mb-3" src="./images/embed.svg" alt="embed vector image" height="80" width="80" />
+                    <h5 class="span_col">Web stránky</h5>
+                    <p class="">Moderné, rýchle a responzívne web stránky na mieru </p>
+                </div>
             </div>
-            <div class="col text-center">
-                <h3 class="span_col_3">Webové aplikácie</h3>
-                <p>Vytvárame jednoduché webové aplikácie, napríklad blogové alebo e-commerce systémy. </p>
-                <img src="" alt="Img" class="img-fluid"/>
+            <div class="card card_background">
+                <div class="card-body">
+                    <img class="card-img-top mb-3" src="./images/seo.svg" alt="seo vector image" height="80" width="80" />
+                    <h5 class="span_col ">SEO</h5>
+                    <p class="">Optimalizácia web stránok pre popredné pozície vo vyhľadávačoch</p>
+                </div>
             </div>
-            <div class="col text-center">
-                <h3 class="span_col_3">SEO</h3>
-                <h6 class="span_col">search engine optimisation</h6>
-                <p>Robíme optimalizáciu pre webové vyhladávače. Upravujeme obsah a štruktúru webu aby sa váš web lepšie umiestnil vo vyhladávacích rebríčkoch.</p>
-                <img src="" alt="Img" class="img-fluid"/>
+            <div class="card card_background">
+                <div class="card-body">
+                    <img class="card-img-top mb-3" src="./images/marketing.svg" alt="marketing vector image" height="80" width="80" />
+                    <h5 class="span_col "> Digitálny marketing</h5>
+                    <p class="">Zabezpečíme marketing na všetkých online platformách</p>
+                </div>
             </div>
-            <div class="col text-center">
-                <h3 class="span_col_3">Social Networking</h3>
-                <p>Spravujeme online komunikáciu so zákazníkmi cez sociálne siete ako je Facebook alebo Twitter. </p>
-                <img src="" alt="Img" class="img-fluid"/>
+            <div class="card card_background">
+                <div class="card-body">
+                    <img class="card-img-top mb-3" src="./images/snetworking.svg" alt="social networking vector image" height="80" width="80" />
+                    <h5 class="span_col "> Social Networking</h5>
+                    <p class="">Spravujeme digitálnu komunikáciu medzi ľudmi a klientom</p>
+                </div>
+            </div>
+        </div>
+        <div class="text-center">
+            <a href="#referencie" class="btn-lg btn_custom_2 text-center margin_top_higher_2">Referencie</a>
+        </div>
+    </div>
+    <div class="container-fluid vh text margin_top pt-3" id="referencie">
+        <div class="row margin_top_higher ">
+            <div class="col pt-3">
+                <h3>Naše <span class="span_col_3 text-center">dokončené </span>projekty</h3>
+                <a href="http://hirk.sk"><img src="./images/firm_1.jpg" alt="firm_1_imgae"class="img-fluid nav_item_custom " width="560" height="350"/></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col text_center">
+                <a href="#contact" class="no_margin btn-lg btn_custom_2 text-center margin_2">Kontakt</a>
             </div>
         </div>
     </div>
-    <!-- Portfolio -->
-    <div class="container-fluid vh background no_margin" id="no_2">
-        <div class="margin_top_higher">
-            <h3 class="align-middle">Vytvárame webové <span class="span_col_3">stránky</span> a<br /><span class="span_col_3">aplikácie</span> pre menšie a lokálne firmy.</h3>
-            <div class="row" style="margin-top: 1rem">
-                <div class="col-lg">
-                    <a href="http://hirk.sk" class="a_redirect"><img src="scrn.png" class="align-middle img-fluid a_redirect img_custom" width="500" height="500"/></a>
+    <div class="container-fluid vh background p-5">
+        <div class="row text-center margin_top pb-5">
+            <div class="col">
+                <h3 class="mt-5 span_col">Možnosti Kontaktu </h3>
+                <p id="contact">Kontaktujte nás cez <a href="https://facebook.com" class="span_col_link">Facebook</a>, <a href="https://instagram.com" class="span_col_link">Instagram</a>, <a href="https://twitter.com" class="span_col_link">Twitter</a> alebo cez náš kontaktný <a class="span_col_link" href="" data-toggle="modal" data-target="#contact_modal">formulár</a> <br />Alebo nám môžete priamo napísať na našu emailovú adresu <span class="span_col_link">gemetria@gemetria.sk</span></p>
+            </div>
+        </div>
+    </div>
+    <div class="background">
+        <div class="modal fade" id="contact_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header background">
+                        <h5 class="modal-title" id="contact_header">Kontaktný formulár</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body background">
+                        <div class="container-fluid">
+                            <form class="container">
+                                <div class="form-group">
+                                    <label for="name">Meno | Spoločnosť</label>
+                                    <input class="form-control" id="name" type="text"/>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email"> Email </label>
+                                    <input class="form-control" id="email" type="text"/>
+                                </div>
+                                <div class="form-group">
+                                    <label for="info"> Doplňujúce informácie </label>
+                                    <input class="form-control" id="info" type="text"/>
+                                </div>
+                                <div class="form-group">
+                                    <label for="message"> Správa </label>
+                                    <textarea class="form-control" id="message" rows="4" type="textarea"></textarea>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="submit" class="btn btn-outline-secondary" data-dismiss="modal">Submit</button>                        
+                                </div>
+                            </form> 
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Form -->
-    <div class="container-fluid margin background">
-       <form>
-           <div class="form-row">
-               <div class="form-group col">
-                   <label for="name">Meno | Spoločnosť</label>
-                   <input class="form-control" id="name"/>
-               </div>
-               <div class="form-group col">
-                   <label for="email"> Email </label>
-                   <input class="form-control" id="email"/>
-               </div>
-           </div>
-            <div class="form-group">
-                <label for="message"> Správa </label>
-                <textarea class="form-control" id="message" row="4"></textarea>
-            </div>
-            <button type="submit" class="btn-lg btn-outline-primary">Submit</button>
-       </form> 
-    </div>
-    <!-- Footer -->
-    <div class="container-fluid background footer ">
-        <h5 class="float-left footer_left">Gemetria Support</h5>
-        <h5 class="float-right footer_right">gemetria@gemetria.sk</h5>
-    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script>
         var $root = $('html, body');
         $('a[href^="#"]').click(function () {

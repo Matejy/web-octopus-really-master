@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: ./images/firm_1.jpg
+Disallow: ./images/hero_background.jpg
+
+Sitemap: https://gemetria.sk/sitemap.xml
